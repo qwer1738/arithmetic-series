@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="10a.css">
+  <title>Assignment 10A</title>
+</head>
+
+<body>
+  <h1>Arithmetic Sequence</h1>
+  <div class="container" id="formula">
+    Formula:
+    t<sub>n</sub> = t<sub>0</sub> + dn <br>
+    t<span><sub>n</sub></span> = <span id="t0"">t<sub>0</sub></span> + <span id="d">d</span><span>n</span> <br><br>
+    T<sub>0</sub> = <span id="t02"></span>
+    <input type="range" min="-100" max="100" value="0" id="changeT0" class="slider" oninput="updateOutput()">
+    <br>
+    d = <span id="d2"></span>
+    <input type="range" min="-100" max="100" value="0" id="changed" class="slider" oninput="updateOutput()">
+    <br>
+
+    <button id="buildButton" style="display:''" type="button" class="btn btn-warning" onclick="genTn()">Generate</button>
+  </div>
+
+
+  <div class="container" id="seq">
+    <div class="row" id="area">
+      
+      <!-- <div class="col-sm-2 box">
+        <div class="border border-primary">
+          <h5 class="tn">t1</h5>
+          <h3><span>4</span></h3>
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+        </div>
+      </div>
+      <div class="col-sm-2 box">
+        <div class="border border-primary">
+          <h5 class="tn">t2</h5>
+          <h3><span>6</span></h3>
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+        </div>
+      </div>
+      <div class="col-sm-2 box">
+        <div class="border border-primary">
+          <h5 class="tn">t3</h5>
+          <h3><span>8</span></h3>
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+        </div>
+      </div>
+      <div class="col-sm-2 box">
+        <div class="border border-primary">
+          <h5 class="tn">t4</h5>
+          <h3><span>10</span></h3>
+          <img src="img/pos10.png">
+        </div>
+      </div>
+      <div class="col-sm-2 box">
+        <div class="border border-primary">
+          <h5 class="tn">t5</h5>
+          <h3><span>12</span></h3>
+          <img src="img/pos10.png">
+          <img src="img/pos1.png">
+          <img src="img/pos1.png">
+        </div>
+      </div> --> 
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="10a.js"></script>
+</body>
+
+</html>

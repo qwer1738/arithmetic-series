@@ -1,0 +1,32 @@
+#formula{
+    background-color:bisque;
+    left: 0px;
+    border-radius: 5px;
+    width: 25%;
+    padding: 20px 0;
+    text-align: center;
+}
+#seq{
+    border: 2px solid black;
+    padding: 5px;
+}
+.border-primary{
+    padding: 2px;
+}
+.tn{
+    text-align: center;
+    font-size: 14px;
+}
+h3{
+    text-align: center;
+}
+img{
+    width: 10px;
+    height: 10px;
+}
+.box{
+    text-align: center;
+}
+#area{
+    padding: 2px;
+}
